@@ -25,7 +25,17 @@
         .header {
             margin: 50px;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            text-align: center;
+            margin: 0 -5px;
+        }
+        .header:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .header-column {
+            float: left;
+            width: 40%;
+            padding: 0;
         }
 
         .card {
@@ -105,8 +115,10 @@
 
     <div class="container-fluid">
         <div class="header">
-            <img src="img/DorothyHung.jpg" style="height:150px; margin:0px;">
-            <div>
+            <div class="header-column">
+                <img src="img/DorothyHung.jpg" style="height:150px; margin:0px;">
+            </div>
+            <div class="header-column">
                 <h2>Dorothy Hung</h2><br />
                 <p>
                     dorothyh0602@gmail.com
