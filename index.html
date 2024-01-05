@@ -20,15 +20,35 @@
     <style>
         div {
             border: solid;
-            margin: 40px;
+            padding: 20px;
+        }
+
+        .header {
+            margin: 50px;
         }
 
         .card {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             max-width: 300px;
-            margin: auto;
+            margin: 30px;
             text-align: center;
             font-family: arial;
+        }
+
+        .column {
+            float: left;
+            width: 30%;
+            padding: 0 10px;
+        }
+
+        /* Remove extra left and right margins, due to padding in columns */
+        .row {margin: 0 -5px;}
+
+        /* Clear floats after the columns */
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
         }
 
 
@@ -79,23 +99,26 @@
 
 
     <div class="container-fluid">
-        <div class="card">
+        <div class="header">
             <img src="img/DorothyHung.jpg" style="height:150px; margin:0px;">
             <h2>Dorothy Hung</h2><br />    
             <p>
                 dorothyh0602@gmail.com
             </p>
         </div>
-        <div class="card">
-            <h2>Bio</h2>
-            <p>This is the bio.</p>
+        <div class="row">
+            <div class="column">
+                <div class="card">Card 1</div>
+            </div>
+            <div class="column">
+                <div class="card">Card 2</div>
+            </div>
+            <div class="column">
+                <div class="card">Card 3</div>
+            </div>
         </div>
-        <div>
-            <h2>Education</h2>
-            <p>Bellevue College</p>
-        </div>
-
-            /* <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12">
+/*
+            <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12">
                 <img src="img/DorothyHung.jpg" style="height:150px; margin:0px;">
                 <p>
                     <h2>Dorothy Hung</h2><br />
@@ -131,9 +154,9 @@
                 <div class="col-sm-6 col-lg-6 hidden-sm hidden-md">Movies</div>
                 <div class="col-sm-6 col-lg-6 hidden-sm hidden-md">Books</div>
             </div>
-            </!div> */
+            </!div> 
 
-        </div>
+        </div> */
 
 </body>
 </html>
