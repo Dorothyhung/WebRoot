@@ -26,6 +26,10 @@
             padding: 20px;
         }
 
+        .links {
+            padding: 0px;
+        }
+
         a {
             color: black;
             text-decoration: none;
@@ -96,7 +100,11 @@
         }
 
         /* Remove extra left and right margins, due to padding in columns */
-        .row {margin: 0 -5px;}
+        .row, .links {margin: 0 -5px;}
+        .links {
+            width: 30%;
+            float: left;
+        }
 
         /* Clear floats after the columns */
         .row:after {
