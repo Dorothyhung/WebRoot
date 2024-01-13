@@ -10,60 +10,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap Style Sheets-->
-    <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" /> -->
     <link rel="stylesheet" href="css/style.css" />
 
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="header">
-            <div class="header-img">
-                <img src="img/DorothyHung.jpg" style="height:150px">
-            </div>
-            <div class="header-column">
-                <h2><b>Dorothy Hung</b></h2>
-                <h4>Software Development Student</h4>
-                <p>Email: dorothyh0602@gmail.com</p>
-                <div class="links">
-                    <div class="link-div"><button><a href="https://github.com/Dorothyhung"><p>Github</p></a></button></div>
-                    <div class="link-div"><button><a href="https://www.linkedin.com/in/dorothyhung1/"><p>Linkedn</p></a></button></div>
-                    <div class="link-div"><button><a href="html/webresources.html"><p>Web Resources</p></a></button></div>
+    <div class="container-fluid background-container-1">
+        <div class="container-fluid text-dark custom-shadow py-4">
+            <div class="row">
+                <div class="col-sm-5 text-right">
+                    <img src="img/DorothyHung.jpg" style="height:150px">
+                </div>
+                <div class="col-sm-7">
+                    <h2><b>Dorothy Hung</b></h2>
+                    <h4>Software Development Student</h4>
+                    <p>Email: dorothyh0602@gmail.com</p>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="column">
-                <div class="card">
+            <br>
+
+            <div class="row justify-content-center">
+                <div class="col-sm-2">
+                    <button class="btn btn-block pt-2 pb-0 btn-secondary btn-hover"><a class="btn btn-block text-light py-0" href="https://github.com/Dorothyhung" target="_blank">
+                        <p>Github</p>
+                    </a></button>
+                </div>
+                <div class="col-sm-2">
+                    <button class="btn btn-block pt-2 pb-0 btn-secondary btn-hover"><a class="btn btn-block text-light py-0" href="https://www.linkedin.com/in/dorothyhung1/" target="_blank">
+                        <p>Linkedn</p>
+                    </a></button>
+                </div>
+                <div class="col-sm-2">
+                    <button class="btn btn-block pt-2 pb-0 btn-secondary btn-hover"><a class="btn btn-block text-light py-0" href="html/webresources.html" target="_blank">
+                        <p>Web Resources</p>
+                    </a></button>
+                </div>
+            </div>
+        </div><br>
+
+        <div class="container-fluid text-dark py-4">
+            <div class="row justify-content-center">
+                <div class="col-sm-3 custom-shadow m-3 text-center">
                     <h3><b>Bio</b></h3><br />
-                    <p>I am a junior at Bellevue College interested in a career in software engineering work, specifically app development. I am excited to be working at Microsoft as an intern this coming summer.</p>
+                    <p>I am a junior at Bellevue College interested in a career in 
+                        software engineering work, specifically app development. 
+                        I am excited to be working at Microsoft as an intern this coming summer.</p>
                 </div>
-            </div>
-            <div class="column">
-                <div class="card">
+
+                <div class="col-sm-3 custom-shadow m-3 text-center">
                     <h3><b>Education</b></h3> <h4>Bellevue College</h4><br />
                     <p><b>2025</b> In Progress</p>
                     <p>Software Development, BAS</p></br>
                     <p><b>2023</b> Complete</p>
                     <p>Information Systems, AAS</p>
                 </div>
-            </div>
-            <div class="experience-column">
-                <div class="card">
+                
+                <div class="col-sm-4 custom-shadow m-3 text-center">
                     <h3><b>Experience</b></h3><br />
-                    <p>
-                        <p><b>Microsoft</b>  Incoming SWE Intern, May 2024</p><br />
-                        <p><b>Nelnet</b>  Software Engineer Intern, July 2023</p><br />
-                        <p><b>KBR</b>  Software Engineer Intern, May 2023</p><br />
-                        <p><b>Costco</b>  Data Ops Intern, January 2023</p>
-                    </p>
+                    <p><b>Microsoft</b>  Incoming SWE Intern, May 2024</p><br />
+                    <p><b>Nelnet</b>  Software Engineer Intern, July 2023</p><br />
+                    <p><b>KBR</b>  Software Engineer Intern, May 2023</p><br />
+                    <p><b>Costco</b>  Data Ops Intern, January 2023</p>
                 </div>
             </div>
-        </div>
+        </div><br><br>
     </div>
-
 </body>
 </html>

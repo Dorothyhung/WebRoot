@@ -3,90 +3,166 @@
   <head>
   <title>Web Resources | Dorothy Hung</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  <link href=".../css/style.css" rel="stylesheet" type="text/css" />
+  
   <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../css/bootstrap.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link href="../css/style.css" rel="stylesheet" type="text/css" />
 
   </head>
   <body>
+    <div class="container-fluid background-container-2 py-4">
+        <div class="d-flex align-items-center justify-content-center">
+          <div class="custom-shadow">
+            <h1>Web Resources</h1>
+          </div>
+        </div><br><br>
+        
+        <div class="container-fluid">
+          <div class="row p-2">
+            <div class="col-sm-2">
+              <button class="btn btn-block py-0 btn-secondary btn-hover"><a href="../index.html" class="btn btn-block text-light">Main</a></button>
+            </div>
+            <div class="col-sm-2">
+              <button class="btn btn-block py-0 btn-light btn-hover"><a href="#a" class="btn btn-block text-dark">GCP Docs</a></button>
+            </div>
+            <div class="col-sm-2">
+              <button class="btn btn-block py-0 btn-light btn-hover"><a href="#b" class="btn btn-block text-dark">Bootstrap Docs</a></button>
+            </div>
+            <div class="col-sm-2">
+              <button class="btn btn-block py-0 btn-light btn-hover"><a href="#c" class="btn btn-block text-dark">ASP.NET Docs</a></button>
+            </div>
+            <div class="col-sm-2">
+              <button class="btn btn-block py-0 btn-light btn-hover"><a href="#d" class="btn btn-block text-dark">MVC Docs</a></button>
+            </div>
+            <div class="col-sm-2">
+              <button class="btn btn-block py-0 btn-light btn-hover"><a href="#e" class="btn btn-block text-dark">MongoDB Docs</a></button>
+            </div>
+          </div>
+        </div></br></br>
 
-  <h1>Web Resources</h1>
+        <div class="container-fluid custom-shadow">
+          <div class="row">
+            <div class="col-sm-4 d-flex align-items-center justify-content-center">
+              <div class="col-sm-5">
+                  <img src="../img/DorothyHung.jpg" style="height:150px">
+              </div>
+              
+              <div class="col-sm-7">
+                  <h3>Dorothy Hung</h3>
+                  <p>Software Dev Student at Bellevue College</p>
+                  <p>Incoming SWE Intern at Microsoft</p>
+              </div>
+              
+            </div>
+            <div class="col-sm-8">
+              <div class="col-sm-12 text-center mx-auto">
+                <h3>Bio</h3>
+                <p>I am a junior at Bellevue College pursuing a BAS in Software Development. 
+                  I am passionate in software engineering and would love to work as a backend
+                  software engineer. My experience includes 3 past internships and a 4th one
+                  this coming summer at Microsoft as a SWE intern. </p>
+              </div>
+            </div>
+          </div>
+        </div></br></br>
+        <div class="container-fluid custom-shadow">
+          <ol>
+            <li>
+              <p id="a">
+                <button class="btn py-0 btn-light btn-hover">
+                  <a class="text-dark font-weight-bold" href="https://cloud.google.com/docs/" target="_blank">Google Cloud Docs</a>
+                </button><br>
+                
+                Summary: The Google Cloud documentation page offers guides, code samples, 
+                diagrams, tutorials, and API references to help build on Google Cloud. 
+                These are useful for any developers deploying to Google Cloud or using Google 
+                Cloud products. I can use this to deploy web apps to Google Cloud.<br />
+                Review: This page includes lots of useful information for both beginners and 
+                advanced developers and seems to have a good range of information as well 
+                including interactive tutorials and code samples.<br />
+                Rating: 5/5
+              </p>
+            </li>
 
-  <p class="foo">
-    <div><button><a href="#a">Github</a></button></div> | 
-    <a href="#b">Bootstrap Docs</a> | 
-    <a href="#c">ASP.NET Docs</a> |
-    <a href="#d">MVC Docs</a> |
-    <a href="#e">MongoDB Docs</a> |
-    <a href="../index.html">Main</a>
-  </p>
+            <li>
+              <p id="b">
+                <button class="btn py-0 btn-light btn-hover">
+                  <a class="text-dark font-weight-bold" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank">Bootstrap Docs</a><br />
+                </button><br>
+                
+                Summary: The Bootstrap documentation webpage features an introduction, guides on 
+                several different projects, customization options, and code samples along with 
+                explanations on different Bootstrap components. This documentation would be
+                useful for frontend developers looking into implementing Bootstrap into their website.
+                I could use this to add responsive design and styling into my websites <br />
+                Review: This documentation page is super easy to navigate and has a very 
+                comprehensive rundown of everything that Bootstrap offers.<br />
+                Rating: 5/5
+              </p>
+            </li>
 
+            <li>
+              <p id="c">
+                <button class="btn py-0 btn-light btn-hover">
+                  <a class="text-dark font-weight-bold" href="https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-8.0" target="_blank">ASP.NET Docs</a><br />
+                </button>
+                </br>
 
-    <ol>
-      <li>
-        <p id="a">
-          <a href="https://cloud.google.com/docs/" target="_blank">Google Cloud Docs</a><br />
-          Summary: The Google Cloud documentation page offers guides, code samples, 
-          diagrams, tutorials, and API references to help build on Google Cloud. 
-          These are useful for any developers deploying to Google Cloud or using Google 
-          Cloud products. I can use this to deploy web apps to Google Cloud.<br />
-          Review: This page includes lots of useful information for both beginners and 
-          advanced developers and seems to have a good range of information as well 
-          including interactive tutorials and code samples.<br />
-          Rating: 5/5
-        </p>
-      </li>
+                Summary: This is the documentation page for Microsoft's ASP.NET software which 
+                includes tutorials, sample code, fundamentals, API reference and more.
+                This page would be used by web developers looking into making their projects more
+                responsive and efficient for their users.<br />
+                Review: This page has lots of super useful tutorials that any beginner could 
+                follow and learn a lot from. <br />
+                Rating: 5/5
+              </p>
+            </li>
 
-      <li>
-        <p id="b">
-          <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank">Bootstrap Docs</a><br />
-          Summary: The Bootstrap documentation webpage features an introduction, guides on 
-          several different projects, customization options, and code samples along with 
-          explanations on different Bootstrap components. <br />
-          Review: This documentation page is super easy to navigate and has a very 
-          comprehensive rundown of everything that Bootstrap offers.<br />
-          Rating: 5/5
-        </p>
-      </li>
+            <li>
+              <p id="d">
+                <button class="btn py-0 btn-light btn-hover">
+                  <a class="text-dark font-weight-bold" href="https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/" target="_blank">ASP.NET MVC Docs</a><br />
+                </button>
+                </br>
 
-      <li>
-        <p id="c">
-          <a href="https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-8.0" target="_blank">ASP.NET Docs</a><br />
-          Summary: This is the documentation page for Microsoft's ASP.NET software which 
-          includes tutorials, sample code, fundamentals, API reference and more.<br />
-          Review: This page has lots of super useful tutorials that any beginner could 
-          follow and learn a lot from. <br />
-          Rating: 5/5
-        </p>
-      </li>
+                Summary: Microsoft's MVC documentation page gives a detailed explanation on 
+                the MVC framework and features a tutorial series on how to build various MVC projects.
+                This documentation can be used by web, desktop application, and mobile app developers
+                because the MVC pattern is great for making the codebase more maintainable and have a
+                separation of concerns, as well as providing scalability. <br />
+                Review: This would also be super helpful for beginner app developers interested 
+                in learning the MVC software design pattern.<br />
+                Rating: 5/5
+              </p>
+            </li>
 
-      <li>
-        <p id="d">
-          <a href="https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/" target="_blank">ASP.NET MVC Docs</a><br />
-          Summary: Microsoft's MVC documentation page gives a detailed explanation on 
-          the MVC framework and features a tutorial series on how to build various MVC projects.<br />
-          Review: This would also be super helpful for beginner app developers interested 
-          in learning the MVC software design pattern.<br />
-          Rating: 5/5
-        </p>
-      </li>
+            <li>
+              <p id="e">
+                <button class="btn py-0 btn-light btn-hover">
+                  <a class="text-dark font-weight-bold" href="https://www.mongodb.com/docs/" target="_blank">MongoDB Docs</a><br />
+                </button>
+                </br>
 
-      <li>
-        <p id="e">
-          <a href="https://www.mongodb.com/docs/" target="_blank">MongoDB Docs</a><br />
-          Summary: The MongoDB documentation page includes a database manual that helps 
-          users understand how to work with data in MongoDB, as well as a bunch of client 
-          libraries for using MongoDB with different languages and platforms. <br />
-          Review: This website is very user-friendly and has a lot of great information 
-          for getting started with MongoDB, and also has a generative AI chatbot which I 
-          thought was cool <br />
-          Rating: 5/5
-        </p>
-      </li>
-    </ol>
+                Summary: The MongoDB documentation page includes a database manual that helps 
+                users understand how to work with data in MongoDB, as well as a bunch of client 
+                libraries for using MongoDB with different languages and platforms. This page
+                can be helpful for developers, data engineers and analysts, or anyone interested
+                in implementing a NoSQL database.<br />
+                Review: This website is very user-friendly and has a lot of great information 
+                for getting started with MongoDB, and also has a generative AI chatbot which I 
+                thought was cool <br />
+                Rating: 5/5
+              </p>
+            </li>
+          </ol>
+        </div>
+    </div>
 
   </body>
 </html>
